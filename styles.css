@@ -1,0 +1,53 @@
+/*#tape {
+  position: absolute;
+  top: 485px;
+  right: 0;
+  width: 50px;
+  height:0px;
+  border: 1px solid black;
+  font-size: 30px;
+  text-align: center;
+  background-color: rgb(224,217,31);
+  transition: height 1s linear;
+}*/
+
+hr {
+  margin-top: 15px;
+  border: 1px solid black;
+}
+
+.modal {
+  position: absolute;
+  height: 40vh;
+  width: 80vw;
+  background-color: rgba(35,111,153,0.9);
+  text-align: center;
+  top: 30vh;
+  left: 10vw;
+  font-size: 40px;
+}
+
+#modal1 {
+  z-index: 100;
+}
+
+#modal2 {
+  display: none;
+  position: static;
+  width: 100%;
+  margin-top: 20vh;
+}
+
+.modal h2 {
+  margin: 40px;
+}
+
+input {
+  width: 250px;
+  font-size: 30px;
+  text-align: center;
+}
+
+#lengthdisplay {
+  font-size: 40px;
+}
